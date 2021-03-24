@@ -1,13 +1,12 @@
+
 import React, { Component } from 'react'
-import MainRouter from "./MainRouter"
+import MainRouter from './MainRouter'
 
-
-class App extends Component {
+export class App extends Component {
   render() {
     return (
       <div>
-        <MainRouter />
-        HOME
+       <MainRouter />
       </div>
     )
   }
